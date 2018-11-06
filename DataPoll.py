@@ -12,8 +12,8 @@ def worth(website, line_num, lim):
 
     #Calculated worth from line 7.
     a = (data[line_num].text).split("⇐ ")
-    x = int(a[0])/int(a[1])
-    return(x)
+    return(a)
+
 
 #iteration for what price we sell at
 print("Alt per Chaos =", worth(alt_per_chaos,7,8))
